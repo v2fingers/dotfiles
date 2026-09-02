@@ -20,6 +20,7 @@ net.imput.helium/
 **/cache/
 nvim/nvim.log
 ghc/ghci_history
+nvim/nvim-pack-lock.json
 
 # Telemetry, cookies, databases, and machine-specific outputs
 go/telemetry/
