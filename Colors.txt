@@ -1,0 +1,10 @@
+#000000  black
+#0D0D0D  background
+#151515  surface
+#1F1F1F  surface-alt
+#303030  border
+#404040  border-light
+#666666  dim
+#999999  muted
+#E6E6E6  text
+#FFFFFF  white

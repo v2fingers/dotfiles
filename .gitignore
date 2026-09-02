@@ -1,0 +1,30 @@
+# Local app state, secrets, and machine-specific data
+chromium/
+dconf/
+BraveSoftware/
+mozilla/
+obsidian/
+pulse/
+session/
+spotify/
+discord/
+
+# Nested repositories and editor/runtime artifacts
+**/.git/
+**/.git/*
+**/*.log
+**/logs/
+**/Cache/
+**/cache/
+nvim/nvim.log
+ghc/ghci_history
+
+# Telemetry, cookies, databases, and machine-specific outputs
+go/telemetry/
+user-dirs.dirs
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*~
+*.swp
