@@ -1,14 +1,15 @@
-* {
-    base: rgba(13,13,13,0.8);
-    surface0:#0000;
-    overlay0: #303030;
-    text: #E6E6E6;
 
-    mauve: #FFFFFF;
-    red: #666666;
-    peach: #404040;
-    green: #999999;
-    lavender: #ADADAD;
+* {
+    base: rgba(8,8,8,0.98);
+    surface0:#0000;
+    overlay0: #3d3d3d;
+    text: #a6a6a6;
+
+    mauve: #e0e0e0;
+    red: #4a4a4a;
+    peach: #707070;
+    green: #a6a6a6;
+    lavender: #c4c4c4;
 
     background-color: @base;
 }
@@ -58,7 +59,7 @@ error-message {
 
 entry, prompt, case-indicator {
     text-color: inherit;
-    background-color:@surface0;
+    background-color: @surface0;
 }
 
 prompt {
