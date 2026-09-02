@@ -9,6 +9,7 @@ session/
 spotify/
 discord/
 gh/
+net.imput.helium/
 
 # Nested repositories and editor/runtime artifacts
 **/.git/
