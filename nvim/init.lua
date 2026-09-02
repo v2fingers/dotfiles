@@ -39,6 +39,20 @@ vim.pack.add({
 	{ src = "https://github.com/goolord/alpha-nvim" },
 })
 
+require("koda").setup({
+	colors = {
+		dark = {
+			bg = "#090909",
+			line = "#1a1a1a",
+		},
+
+		moss = {
+			bg = "#090d0e",
+			line = "#151d1e",
+		},
+	},
+})
+
 vim.cmd.colorscheme("koda-dark")
 
 require("mason").setup()
