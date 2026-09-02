@@ -5,3 +5,4 @@ end
 function fish_greeting
     fastfetch
 end
+bind \cj accept-autosuggestion
