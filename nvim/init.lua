@@ -20,6 +20,7 @@ vim.opt.number = true
 vim.opt.relativenumber = true
 
 vim.pack.add({
+	{ src = "https://github.com/oskarnurm/koda.nvim" },
 	{ src = "https://github.com/stevearc/oil.nvim" },
 	{ src = "https://github.com/nvim-tree/nvim-web-devicons" },
 	{ src = "https://github.com/nvim-treesitter/nvim-treesitter" },
@@ -38,7 +39,7 @@ vim.pack.add({
 	{ src = "https://github.com/goolord/alpha-nvim" },
 })
 
-vim.cmd.colorscheme("mono")
+vim.cmd.colorscheme("koda-dark")
 
 require("mason").setup()
 
