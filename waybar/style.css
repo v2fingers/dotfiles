@@ -175,7 +175,8 @@ tooltip label {
 
 #taskbar button.active,
 #workspaces button.active {
-	color: #E6E6E6;
+	color: #000000;
+	background-color: #E6E6E6;
 	border-radius: 0.2rem;
 }
 
