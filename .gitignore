@@ -8,6 +8,7 @@ pulse/
 session/
 spotify/
 discord/
+gh/
 
 # Nested repositories and editor/runtime artifacts
 **/.git/
