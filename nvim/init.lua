@@ -63,21 +63,11 @@ telescope.setup({
 		preview = { treesitter = false },
 		color_devicons = true,
 		sorting_strategy = "ascending",
-		borderchars = {
-			"", -- top
-			"", -- right
-			"", -- bottom
-			"", -- left
-			"", -- top-left
-			"", -- top-right
-			"", -- bottom-right
-			"", -- bottom-left
-		},
 		path_displays = { "smart" },
 		layout_config = {
-			height = 100,
-			width = 400,
-			prompt_position = "top",
+			height = 0.9,
+			width = 0.9,
+			prompt_position = "bottom",
 			preview_cutoff = 40,
 		},
 	},
