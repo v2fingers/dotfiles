@@ -20,6 +20,8 @@ vim.opt.number = true
 vim.opt.relativenumber = true
 
 vim.pack.add({
+	{ src = "https://github.com/brianhuster/live-preview.nvim" },
+
 	{ src = "https://github.com/oskarnurm/koda.nvim" },
 	{ src = "https://github.com/stevearc/oil.nvim" },
 	{ src = "https://github.com/nvim-tree/nvim-web-devicons" },
