@@ -22,6 +22,7 @@ Vial/
 nvim/nvim.log
 ghc/ghci_history
 nvim/nvim-pack-lock.json
+QtProject.conf
 
 # Telemetry, cookies, databases, and machine-specific outputs
 go/telemetry/
