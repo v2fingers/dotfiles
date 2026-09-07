@@ -23,6 +23,7 @@ nvim/nvim.log
 ghc/ghci_history
 nvim/nvim-pack-lock.json
 QtProject.conf
+mimeapps.list
 
 # Telemetry, cookies, databases, and machine-specific outputs
 go/telemetry/
