@@ -226,14 +226,19 @@ dashboard.section.header.val = {
 	[[ ██████  ███ █████████████████ ████ █████ █████ ████ ██████ ]],
 	[[ ██████   ██  ███████████████   ██ █████████████████ ]],
 	[[ ██████   ██  ███████████████   ██ █████████████████ ]],
+	[[                                                                       ]],
+	[[                                                                       ]],
+	[[                         Welcome back, Fingers                         ]],
 }
 
-dashboard.section.buttons.val = {
-	dashboard.button("f", "  Find File", "<cmd>Telescope find_files<CR>"),
-	dashboard.button("e", "  Explorer", "<cmd>Oil<CR>"),
-	dashboard.button("q", "  Quit", "<cmd>qa<CR>"),
+dashboard.opts.layout = {
+	{ type = "padding", val = 8 },
+	dashboard.section.header,
+	{ type = "padding", val = 2 },
+	dashboard.section.buttons,
+	{ type = "padding", val = 1 },
+	dashboard.section.footer,
 }
-
 dashboard.section.buttons.val = {
 	dashboard.button("e", "  > New File", "<cmd>ene<CR>"),
 	dashboard.button("SPC ff", "󰱼 > Find File", "<cmd>Telescope find_files<CR>"),
