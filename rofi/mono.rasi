@@ -19,7 +19,7 @@ window {
     width: 600;
 
     border: 3;
-    border-radius: 10;
+    border-radius: 0;
     border-color: @lavender;
 }
 

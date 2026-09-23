@@ -76,7 +76,7 @@
     {
       "type": "disk",
       "key": "disk",
-      "folders": "/",
+      "folders": "/home",
       "showExternal": false,
       "showHidden": false,
       "showSubvolumes": false,
